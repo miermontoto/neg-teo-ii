@@ -17,7 +17,7 @@
 \usepackage{lastpage}
 \usepackage{stackengine}
 \usepackage{array}
-\usepackage{url}
+\usepackage{hyperref}
 \usepackage{float}
 
 \usepackage{hyperref} % Paquete para que las referencias funcionen, y permite introducir links
@@ -54,8 +54,12 @@
 \onehalfspacing{} % Interlineado de 1,5
 
 %% El contenido de la memoria, dividido en capítulos:
-\input{sections/intro.tex}
-%% -- INSERTAR SECCIONES --
+\input{sections/1_intro.tex}
+\input{sections/2_tecnicas.tex}
+\input{sections/3_pre.tex}
+\input{sections/4_cus.tex}
+\input{sections/5_desafios.tex}
+\input{sections/6_tools.tex}
 \input{sections/concl.tex}
 
 %% Esto incluirá la bibliografía correctamente en nuestro trabajo
@@ -64,5 +68,7 @@
 
 \bibliographystyle{ieeetr} % Define el estilo de la bibliografía
 \bibliography{biblio} % Indica el archivo que contiene la colección de citas
+
+\nocite{apuntes}
 
 \end{document}

@@ -1,64 +1,14 @@
-%% This BibTeX bibliography file was created using BibDesk.
-%% http://bibdesk.sourceforge.net/
+@unpublished{apuntes,
+  author = {Luciano Sánchez Ramos},
+  title  = {VA2 - Anomalías},
+  year   = {2023},
+  note   = {Apuntes de la asignatura de \textit{Inteligencia de Negocio}, EPI Gijón}
+}
 
-@article{antonanzas2016review,
-	Abstract = {Variability of solar resource poses difficulties in grid management as solar penetration rates rise continuously. Thus, the task of solar power forecasting becomes crucial to ensure grid stability and to enable an optimal unit commitment and economical dispatch. Several forecast horizons can be identified, spanning from a few seconds to days or weeks ahead, as well as spatial horizons, from single site to regional forecasts. New techniques and approaches arise worldwide each year to improve accuracy of models with the ultimate goal of reducing uncertainty in the predictions. This paper appears with the aim of compiling a large part of the knowledge about solar power forecasting, focusing on the latest advancements and future trends. Firstly, the motivation to achieve an accurate forecast is presented with the analysis of the economic implications it may have. It is followed by a summary of the main techniques used to issue the predictions. Then, the benefits of point/regional forecasts and deterministic/probabilistic forecasts are discussed. It has been observed that most recent papers highlight the importance of probabilistic predictions and they incorporate an economic assessment of the impact of the accuracy of the forecasts on the grid. Later on, a classification of authors according to forecast horizons and origin of inputs is presented, which represents the most up-to-date compilation of solar power forecasting studies. Finally, all the different metrics used by the researchers have been collected and some remarks for enabling a fair comparison among studies have been stated.},
-	Author = {J. Antonanzas and N. Osorio and R. Escobar and R. Urraca and F.J. Martinez-de-Pison and F. Antonanzas-Torres},
-	Date-Added = {2019-04-23 16:05:29 +0200},
-	Date-Modified = {2019-04-23 16:05:29 +0200},
-	Journal = {Solar Energy},
-	Pages = {78 - 111},
-	Title = {Review of photovoltaic power forecasting},
-	Volume = {136},
-	Year = {2016}}
-
-@article{benedetti2018anomaly,
-	Abstract = {We present a learning approach designed to detect possible anomalies in photovoltaic (PV) systems in order to let an operator to plan predictive maintenance interventions. The anomaly detection algorithm presented is based on the comparison between the measured and the predicted values of the AC power production. The model designed to predict the AC power production is based on an Artificial Neural Network (ANN), that is capable of estimating the AC power production using solar irradiance and PV panel temperature measurements, and that is trained using a dataset previously gathered from the plant to be monitored. Live trend data coming from the PV system are then compared with the output of the model and the vector of residuals is analyzed to detect anomalies and generate daily predictive maintenance alerts; there residuals are aggregated over 1-day and processed to detect out-of-threshold samples and system degradation trends; these trends are extracted by computing the Triangular Moving Average (TMA) where the window size is automatically determined. The paper also reports experimental data results revealing that the model leads to a good anomaly detection rate, which is measured as a positive predictive detection rate greater than 90\%. Moreover, the algorithm is able to recognize trends of system's deviations from normal operation behavior and generate predictive maintenance alerts as a decision support system for operatives, with the aim of avoiding possible incoming failures.},
-	Author = {Massimiliano De Benedetti and Fabio Leonardi and Fabrizio Messina and Corrado Santoro and Athanasios Vasilakos},
-	Date-Added = {2019-04-23 14:40:49 +0200},
-	Date-Modified = {2019-04-23 14:40:49 +0200},
-	Journal = {Neurocomputing},
-	Pages = {59 - 68},
-	Title = {Anomaly detection and predictive maintenance for photovoltaic systems},
-	Volume = {310},
-	Year = {2018}}
-
-@article{garoudja2017enhanced,
-	Abstract = {In this paper, a novel procedure for fault detection and diagnosis in the direct current (DC) side of PV system, based on probabilistic neural network (PNN) classifier, is proposed. The suggested procedure consists of four main stages: (i) PV module parameters extraction, (ii) PV array simulation and experimental validation (iii) elaboration of a relevant database of both healthy and faulty operations, and (iv) network construction, training and testing. In the first stage, the unknown electrical parameters of the one diode model (ODM) are accurately identified using the best-so-far ABC algorithm. Then, based on these parameters the PV array is simulated and experimentally validated by using a PSIM{\texttrademark}/Matlab{\texttrademark} co-simulation. Finally, efficient fault detection and diagnosis procedure based on PNN classifier is implemented. Four operating cases were tested in a grid connected PV system of 9.54kWp: Healthy system, three modules short-circuited in one string, ten modules short-circuited in one string, and a string disconnected from the array. Moreover, the PNN method was compared, under real operating conditions, with the feed forward back-propagation Artificial Neural Network (ANN) classifiers method, for noiseless and noisy data to evaluate the suggested method's accuracy and test its aptitude to support noisy data. The obtained results have demonstrated the high efficiency of the proposed method to detect and diagnose DC side anomalies for both noiseless and noisy data cases.},
-	Author = {Elyes Garoudja and Aissa Chouder and Kamel Kara and Santiago Silvestre},
-	Date-Added = {2019-04-23 14:34:15 +0200},
-	Date-Modified = {2019-04-23 14:34:15 +0200},
-	Journal = {Energy Conversion and Management},
-	Pages = {496 - 513},
-	Title = {An enhanced machine learning based approach for failures detection and diagnosis of PV systems},
-	Volume = {151},
-	Year = {2017}}
-
-@article{belaout2018multiclass,
-	Abstract = {In this paper, a Multiclass Adaptive Neuro-Fuzzy Classifier (MC-NFC) for fault detection and classification in photovoltaic (PV) array has been developed. Firstly, to show the generalization capability in the automatic faults classification of a PV array (PVA), Fuzzy Logic (FL) classifiers have been built based on experimental datasets. Subsequently, a novel classification system based on Adaptive Neuro-fuzzy Inference System (ANFIS) has been proposed to improve the generalization performance of the FL classifiers. The experiments have been conducted on the basis of collected data from a PVA to classify five kinds of faults. Results showed the advantages of using the fuzzy approach with reduced features over using the entire original chosen features. Then, the designed MC-NFC has been compared with an Artificial Neural Networks (ANN) classifier. Results demonstrated the superiority of the MC-NFC over the ANN-classifier and suggest that further improvements in terms of classification accuracy can be achieved by the proposed classification algorithm; furthermore faults can be also considered for discrimination.},
-	Author = {A. Belaout and F. Krim and A. Mellit and B. Talbi and A. Arabi},
-	Date-Added = {2019-04-23 14:25:22 +0200},
-	Date-Modified = {2019-04-23 14:25:22 +0200},
-	Journal = {Renewable Energy},
-	Pages = {548--558},
-	Title = {Multiclass adaptive neuro-fuzzy classifier and feature selection techniques for photovoltaic array fault detection and classification},
-	Volume = {127},
-	Year = {2018}}
-
-@article{guerreiro2017mismatch,
-	Author = {P. {Guerriero} and L. {Piegari} and R. {Rizzo} and S. {Daliento}},
-	Date-Added = {2019-04-23 14:08:37 +0200},
-	Date-Modified = {2019-04-23 14:11:15 +0200},
-	Journal = {International Journal of Photoenergy},
-	Title = {Mismatch Based Diagnosis of PV Fields Relying on Monitored String Currents},
-	Year = {2017}}
-
-@misc{ministerio_energia,
-    title = {Página Web del Ministerio para la transición energética},
-    howpublished = "\url{https://energia.gob.es}",
-    note = {Accedido 13-07-2019}}
-
-@misc{darksky,
-    title = {Página Web de DarkSky},
-    howpublished = "\url{https://darksky.net/dev}",
-    note = {Accedido 13-07-2019}}
+@misc{source,
+  author       = {Juan Mier},
+  howpublished = {\url{https://github.com/miermontoto/neg-teo-ii}},
+  title        = {neg-teo-ii},
+  note         = {Código fuente del trabajo},
+  year         = {2023}
+}
