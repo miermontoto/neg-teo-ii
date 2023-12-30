@@ -1,10 +1,22 @@
 \chapter{Introducción}
-\section{Definición}
-En esencia, la minería de anomalías es una rama de la minería de datos que se enfoca en
+\section{Definiciones}
+\subsection{Minería de anomalías}
+En esencia, la minería de anomalías (también conocida como \textit{minería de excepciones} o
+\textit{detección de valores atípicos}) es una rama de la minería de datos que se enfoca en
 la detección de patrones anómalos o inusuales en los datos.
 
 Estas anomalías representan desviaciones significativas de los comportamientos esperados
 o de las tendencias habituales en un entorno comercial.
+\subsection{Anomalía}
+Existen múltiples posibles definiciones de anomalía. Algunas de ellas son:
+\begin{itemize}[noitemsep,topsep=0pt]
+	\item Una observación que se desvía tanto de las demás como para despertar sospechas de
+		que se ha generado por un mecanismo diferente.
+	\item Casos o conjuntos de datos que aparecen muy raramente y cuyas características
+		difieren significativamente de los demás.
+	\item Patrones en los datos que no se ajustan a una noción bien definida de comportamiento
+		normal.
+\end{itemize}
 
 \section{Objetivos y aplicaciones en el mundo real}
 El objetivo principal radica en identificar estos eventos ``atípicos'' que podrían llegar
@@ -14,6 +26,9 @@ la \subject.
 En el mundo real, la minería de anomalías se puede aplicar (y se aplica) a la hora de
 tomar decisiones empresariales, como por ejemplo al detectar fraudes, revelar áreas de
 mejora, detectar problemas operativos\ldots
+
+En apartados posteriores se verán ejemplos de aplicaciones y casos de uso de la minería de
+excepciones.~(Ver \nameref{chap:cus})
 
 \section{Causas de las anomalías}
 Las anomalías pueden ser causadas por una amplia variedad de razones, pero existen algunas
@@ -30,4 +45,8 @@ causas comunes que pueden ser identificadas:
 	\item \textbf{Errores en la medición:} todos los datos que se recogen están sometidos a una
 		componente humana y, por lo tanto, a errores. Dichos errores pueden llegar a ser
 		considerados anomalías, por lo que hay que lidiar con ellos en la fase de preprocesamiento.
+		(Ver \nameref{chap:pre})
 \end{itemize}
+
+\section{Historia y evolución}
+|TODO|

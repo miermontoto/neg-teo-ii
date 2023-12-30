@@ -18,6 +18,7 @@
 \usepackage{stackengine}
 \usepackage{array}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \usepackage{float}
 
 \usepackage{hyperref} % Paquete para que las referencias funcionen, y permite introducir links
@@ -41,16 +42,10 @@
 % Índice de figuras
 \addcontentsline{toc}{chapter}{Índice de figuras}  % Añade la referencia al índice de contenido
 \listoffigures
-\newpage
-
-% Índice de tablas
-\addcontentsline{toc}{chapter}{Índice de tablas} % Añade la referencia al índice de contenido
-\listoftables
-
 
 \justify{} % Texto justificado
 \setlength{\parskip}{\baselineskip} % Separación entre párrafos de 1 linea
-\onehalfspacing{} % Interlineado de 1,5
+\onehalfspacing{}
 
 %% El contenido de la memoria, dividido en capítulos:
 \input{sections/1_intro.tex}
@@ -69,7 +64,7 @@
 \bibliography{biblio} % Indica el archivo que contiene la colección de citas
 
 \nocite{apuntes}
-\nocite{leal2009aplicacion}
-\nocite{perez2020uso}
+\nocite{leal2009aplicacion,perez2020uso}
+\nocite{enwiki:1188321736,eswiki:155256141}
 
 \end{document}
