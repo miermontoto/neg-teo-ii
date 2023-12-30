@@ -1,5 +1,33 @@
 \chapter{Introducción}
-\section{Definiciones}
+\section{Definición}
+En esencia, la minería de anomalías es una rama de la minería de datos que se enfoca en
+la detección de patrones anómalos o inusuales en los datos.
 
+Estas anomalías representan desviaciones significativas de los comportamientos esperados
+o de las tendencias habituales en un entorno comercial.
 
 \section{Objetivos y aplicaciones en el mundo real}
+El objetivo principal radica en identificar estos eventos ``atípicos'' que podrían llegar
+a indicar problemas o posibles oportunidades, si lo observamos desde el punto de vista de
+la \subject.
+
+En el mundo real, la minería de anomalías se puede aplicar (y se aplica) a la hora de
+tomar decisiones empresariales, como por ejemplo al detectar fraudes, revelar áreas de
+mejora, detectar problemas operativos\ldots
+
+\section{Causas de las anomalías}
+Las anomalías pueden ser causadas por una amplia variedad de razones, pero existen algunas
+causas comunes que pueden ser identificadas:
+
+\begin{itemize}
+	\item \textbf{Datos de clases diferentes:} un objeto puede ser diferente del resto por
+		pertencer a una clase diferente. En el ejemplo de los fraudes, los objetos ``outliers''
+		dentro de un conjunto de datos pueden ser considerados como inusuales o como potenciales
+		fraudes.
+	\item \textbf{Variación natural:} cuando los datos se pueden modelar estadísticamente
+		mediante una distribución, los objetos que se encuentran en las colas de la distribución
+		se pueden llegar a considerar como anomalías.
+	\item \textbf{Errores en la medición:} todos los datos que se recogen están sometidos a una
+		componente humana y, por lo tanto, a errores. Dichos errores pueden llegar a ser
+		considerados anomalías, por lo que hay que lidiar con ellos en la fase de preprocesamiento.
+\end{itemize}
