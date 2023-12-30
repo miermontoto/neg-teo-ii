@@ -1,8 +1,26 @@
 \chapter{Casos de uso}\label{chap:cus}
-\section{Casos reales}
-Como ya se ha mencionado (Ver \nameref{sec:hist}), la detección de anomalías comenzó a partir de la
-detección de intrusiones de Dorothy Denning~\cite{denning1987intrusion}. A partir de entonces, se
-han ido desarrollando diferentes técnicas y usos para la detección de anomalías, como por ejemplo:
+\section{Ejemplos de uso}
+La minería de excepciones se puede aplicar a un gran abanico de casos, en múltiples campos.
+Algunos de los más frecuentes son los siguientes:
+\begin{itemize}
+	\item Detección del fraude
+	\item Detección de intrusiones en sistemas informáticos
+	\item Detección de caídas de servicios
+	\item Salud pública y medicina
+	\item Transmisión de datos en redes
+	\item Seguridad militar y nacional
+\end{itemize}
+
+Todos estos casos de uso hacen uso principalmente de la minería de anomalías, aplicando las
+técnicas vistas en el capítulo~\ref{chap:tecnicas} para detectar desviaciones que indiquen un
+comportamiento anómalo.
+
+\section{Casos reales}\label{sect:reales}
+Como ya se ha mencionado antes (Ver \nameref{sec:hist}), la detección de anomalías comenzó a partir
+de la detección de intrusiones de Dorothy Denning~\cite{denning1987intrusion}. Desde entonces, se
+han desarrollado diferentes técnicas y usos para la detección de anomalía. En esta sección se
+verán algunos ejemplos de casos reales expandiendo de los ejemplos de uso vistos en la sección
+anterior.
 
 \begin{itemize}
 	\item En \textbf{1999}, científicos de Bell Atlantic desarrollaron un sistema de detección de
@@ -10,6 +28,19 @@ han ido desarrollando diferentes técnicas y usos para la detección de anomalí
 	\item En \textbf{2005}, investigadores de las universidades del estado de Oregon y Carnegie Mellon
 		propusieron algoritmos que aplicaban la detección de anomalías a la detección temprana de
 		brotes de enfermedades~\cite{wong2005wsare}.
+	\item En \textbf{2015}, Netflix publicó un artículo en el que explicaba cómo utilizaban la
+		detección de anomalías genéricas, con enfoque en conjuntos de alta dimensionalidad y tratando
+		de minimizar los falsos positivos (\emph{RAD})~\cite{netflix2015rad}.
+	\item También en ese año, Uber publicó un artículo explicando el uso de su herramienta de minería
+		de excepciones \emph{Argos}, que utilizan para detectar caídas de sus servicios y encontrar su
+		causa.~\cite{uber2015argos}
+	\item En \textbf{2016}, investigadores de la IEEE publicaron un sistema de detección de anomalías
+		para las transmisiones entre WSNs (\textit{Wireless Sensor Networks}) mediante el análisis de
+		vecinos más cercanos (una de las técnicas vistas~\nameref{chap:tecnicas}).~\cite{ieee2016wsn}
+	\item En \textbf{2019}, Pinterest publicó un artículo en el que explicaba cómo utilizaban la
+		detección de anomalías de manera escalable para analizar las métricas de sus
+		servicios.~\cite{pinterest2019anomaly}
+	\item También en ese año, la popular plataforma LinkedIn publicó un artículo del mismo estilo,
+		explicando la integración de su herramienta \textit{ThirdEye} en sus servicios de
+		negocio.~\cite{linkedin2019thirdeye}
 \end{itemize}
-
-\section{Ejemplos de uso}
