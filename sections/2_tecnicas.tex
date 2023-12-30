@@ -1,4 +1,4 @@
-\chapter{Técnicas y métodos de detección}
+\chapter{Técnicas y métodos de detección}\label{chap:tecnicas}
 Existe una gran variedad de técnicas y métodos de detección de anomalías, si bien cada uno
 de ellos tiene sus propias ventajas y desventajas. Es importante tener en cuenta que la
 efectividad de cada uno de ellos depende en gran medida del tipo de datos que se esté
@@ -36,7 +36,7 @@ sobre los datos de la que se disponga:
 Para tratar de resolver el problema de la detección, se han desarrollado una gran variedad de
 técnicas y métodos. Los siguientes enfoques son los más comunes:
 \begin{itemize}[topsep=0pt]
-	\item \textbf{Técnicas basadas en modelos:} en este caso, los anomalías serán aquellos objetos
+	\item \textbf{Técnicas basadas en modelos (\textit{estadísticas}):} en este caso, los anomalías serán aquellos objetos
 		que no se ajusten bien al modelo que se haya generado previamente. Por ejemplo, si se
 		están trabajando en un problema de regresión, las anomalías serán aquellas que tengan un
 		gran error de predicción.
@@ -50,14 +50,16 @@ técnicas y métodos. Los siguientes enfoques son los más comunes:
 		con una baja densidad se pueden llegar a considerar anómalos. Normalmente se compara la
 		densidad de un objeto con la densidad media de los objetos que se encuentran a su alrededor
 		(vecinos más cercanos).
+	\item \textbf{Técnicas basadas en clusters:} estas técnicas se basan en la idea de que los
+		objetos normales pertenecen a un cluster o grupo, mientras que los objetos anómalos no
+		pertenecen a ninguno. Por lo tanto, se puede detectar una anomalía si un objeto no pertenece
+		a ningún cluster o si pertenece a un cluster con un número muy pequeño de objetos.
 \end{itemize}
 
 Dentro de los enfoques anteriores, se distinguen una gran variedad de técnicas más:
 \begin{itemize}[noitemsep,topsep=0pt]
-	\item Estadísticas
 	\item Redes bayesianas
 	\item Redes neuronales (replicantes, autocodificadores, de memoria a corto plazo)
-	\item Agrupación
 	\item Modelos ocultos de Makarov (\textit{HMM})
 	\item Técnicas de ensamblaje (usando \textit{feature bagging})
 	\item Basadas en lógica difusa
