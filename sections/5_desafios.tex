@@ -20,6 +20,12 @@ serie de problemas comunes que se deben tener en cuenta:
 		asignar un \emph{grado de anormalidad}, que normalmente define la distancia entre el objeto y el
 		conjunto de datos normales. Este concepto es importante y es la base de muchas técnicas de detección
 		no supervisadas o semi-supervisadas (Ver \nameref{chap:tecnicas}).
+		\begin{itemize}
+			\item \textbf{Local Outlier Factor (\emph{LOF}):} el LOF es un tipo de grado de anormalidad
+				calculado a partir de la densidad \textbf{local} a partir de la distancia entre los puntos
+				más cercanos (vecinos). Este método es capaz de detectar anomalías locales, pero no globales,
+				en relación con la idea de \textit{localidad} mencionada anteriormente.
+		\end{itemize}
 	\item \textbf{Múltiples anomalías simultáneas:} en ocasiones, un objeto puede ser considerado anómalo
 		por múltiples razones. En relación con el punto anterior, el hecho de que dos objetos tengan el mismo
 		\textit{grado} de anormalidad no implica que sean anómalos por los mismos motivos (\textit{atributos}).
