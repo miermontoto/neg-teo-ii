@@ -56,6 +56,23 @@ de que las actividades de los usuarios legítimos del sistema se pueden modelar 
 se pueden detectar las actividades que no se ajustan a dicho modelo. Este trabajo fue el punto de
 partida de la detección de anomalías.
 
+Pese a que el trabajo de Denning fue la primera aplicación real en la historia de la detección de
+anomalías, ya existían algunas técnicas que se pueden considerar como predecesoras de la minería
+de excepciones. Por ejemplo, en \textit{Economic Control of Quality of
+Manufactured Product}~\cite{shewhart1931economic}, se propusieron técnicas de clasificación de
+conjuntos de datos gausianos en función de su desviación estándar. Este tipo de técnicas se pueden
+considerar como predecesoras de las técnicas de detección de anomalías basadas en la distancia
+y son estrategias rudimentarias aun utilizadas en la actualidad.
+
+\noindent
+\begin{minipage}{\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{gaussian.png}
+	\captionof{figure}{Regla 68{-}95{-}99.7 para desv.~estándar en
+		medias de distr.~gausianas~\cite{galarnyk2018explaining}}\label{fig:fig1}
+\end{minipage}
+\vspace{1\baselineskip}
+
 La detección de intrusiones es un componente crítico de la detección de anomalías y ha ido evolucionando
 significativamente con el paso del tiempo. En la actualidad, los sistemas de detección de intrusiones
 se basan en técnicas de aprendizaje automático y de minería de datos, reflejando el progreso de la minería

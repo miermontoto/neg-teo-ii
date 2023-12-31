@@ -39,7 +39,17 @@ técnicas y métodos. Los siguientes enfoques son los más comunes:
 	\item \textbf{Técnicas basadas en modelos (\textit{estadísticas}):} en este caso, los anomalías serán aquellos objetos
 		que no se ajusten bien al modelo que se haya generado previamente. Por ejemplo, si se
 		están trabajando en un problema de regresión, las anomalías serán aquellas que tengan un
-		gran error de predicción.
+		gran error de predicción. Dentro de la detección estadística, se distinguen varios tipos de detección:
+		(\textbf{probabilística}, \textbf{de outliers} y \textbf{de \textit{novelties}}). Normalmente, se trabaja
+		asumiendo que los datos siguen una distribución normal, lo que permite utilizar la media y la desviación
+		en problemas univarpiantes o la distancia de \emph{Mahalanobis}~\cite{mahalanobis2018generalized} en
+		problemas multivariantes.
+
+		\begin{minipage}{\linewidth}
+			\centering
+			% \includegraphics[width=\textwidth]{mahalanobis.png}
+			\captionof{figure}{caption here}\label{fig:fig2}
+		\end{minipage}
 	\item \textbf{Técnicas basdadas en proximidad:} estas técnicas explotan una métrica de
 		similaridad entre objetos para medir la \textit{distancia} entre ellos. Los objetos que
 		se encuentren a una distancia mayor que un umbral establecido se considerarán anomalías.
