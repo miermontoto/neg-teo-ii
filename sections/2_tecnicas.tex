@@ -56,6 +56,13 @@ técnicas y métodos. Los siguientes enfoques son los más comunes:
 		se encuentren a una distancia mayor que un umbral establecido se considerarán anomalías.
 		En caso de que se pueda representar los datos en un espacio bidimensional, se pueden
 		detectar las anomalías a simple vista.
+
+		\begin{minipage}{\linewidth}
+			\centering
+			\includegraphics[width=\textwidth]{distance.png}
+			\captionof{figure}{Dos tipos distintos de anomalías en la representación de un modelo
+				de detección basado en proximidad~\cite{yu2010two}}\label{fig:fig4}
+		\end{minipage}
 	\item \textbf{Técnicas basadas en densidad:} considerando la densidad como \emph{el número de
 		objetos en una región del espacio de datos}, los objetos que se encuentren en regiones
 		con una baja densidad se pueden llegar a considerar anómalos. Normalmente se compara la
@@ -65,6 +72,14 @@ técnicas y métodos. Los siguientes enfoques son los más comunes:
 		objetos normales pertenecen a un cluster o grupo, mientras que los objetos anómalos no
 		pertenecen a ninguno. Por lo tanto, se puede detectar una anomalía si un objeto no pertenece
 		a ningún cluster o si pertenece a un cluster con un número muy pequeño de objetos.
+		\vspace{1\baselineskip}
+
+		\begin{minipage}{\linewidth}
+			\centering
+			\includegraphics[width=\textwidth]{clusters.png}
+			\captionof{figure}{Anomalías en un sistema de detección basado en
+				clusters.~\cite{bae2020effective}}\label{fig:fig5}
+		\end{minipage}
 \end{itemize}
 
 Dentro de los enfoques anteriores, se distinguen una gran variedad de técnicas más:
